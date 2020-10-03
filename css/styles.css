@@ -1,0 +1,21 @@
+#t {
+    text-align: center;
+    padding-top: 200pt;
+    padding-bottom: 200pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: violet;
+}
+
+#fp-t {
+    margin-bottom: 0pt;
+    font-size: 40pt;
+}
+
+#fp-d {
+    margin-top: 5pt;
+    font-size: 15pt;
+}
+
+#fp-body {
+    background-color: wheat;
+}
