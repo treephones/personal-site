@@ -1,9 +1,33 @@
+body {
+    margin: 0;
+}
+
+p, h1 {
+    font-family: 'titleFont', sans-serif;
+    color: white;
+}
+
+p {
+    letter-spacing: 2pt;
+}
+
+h1 {
+    letter-spacing: 6pt;
+}
+
+.portion {
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+}
+
+#fp-header-buttons {
+    padding-left: 50pt;
+}
+
 #t {
     text-align: center;
-    padding-top: 200pt;
-    padding-bottom: 200pt;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border: violet;
+    box-align: center;
+    padding-top: 15%;
 }
 
 #fp-t {
@@ -13,9 +37,30 @@
 
 #fp-d {
     margin-top: 5pt;
-    font-size: 15pt;
+    font-size: 1.6vw;
 }
 
 #fp-body {
-    background-color: wheat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: none;
+    background-image: url(../images/fp-back2.JPG);
+    background-size: cover;
+}
+
+#fp-home-btn {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+#fp-home-btn-p {
+    font-size: 15pt;
+}
+
+@font-face {
+    font-family: 'titleFont';
+    src: url(../fonts/OpenSans-Light.ttf);
 }
