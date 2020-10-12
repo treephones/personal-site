@@ -24,6 +24,10 @@ a {
     padding-bottom: 10pt;
 }
 
+.nav-item > p {
+    color: blue;
+}
+
 nav {
     display: inline;
     padding-inline-start: 20pt;
