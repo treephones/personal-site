@@ -27,7 +27,7 @@ a {
 nav {
     display: inline;
     padding-inline-start: 20pt;
-    padding-top: 20pt;
+    
 }
 
 #t {
@@ -48,17 +48,6 @@ nav {
     margin-right: 20pt;
 }
 
-#fp-body {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    overflow: none;
-    background-image: url(../images/fp-back3.JPG);
-    background-size: cover;
-}
-
 .fp-btns {
     background-color: transparent;
     border-color: transparent;
@@ -66,20 +55,12 @@ nav {
     padding-right: 1%;
 }
 
-.fp-btns:hover {
-    background-color: black;
-    border-radius: 50pt;
-    border-color: white;
-}
-
-.fp-btns-r:hover {
-    background-color: black;
-    border-radius: 50pt;
-    border-color: white;
+.fp-btns-p:hover {
+    color: grey;
 }
 
 .fp-btns-p {
-    font-size: 15pt;
+    font-size: 17pt;
 }
 
 .fp-btns-r {
@@ -92,4 +73,17 @@ nav {
 @font-face {
     font-family: 'titleFont';
     src: url(../fonts/OpenSans-Light.ttf);
+}
+
+@media screen and (max-width: 420px) {
+    nav, .fp-btns-r {
+        display: none;
+    }
+
+    #t {
+        text-align: center;
+        box-align: center;
+        padding-top: 56%;
+    }
+
 }
