@@ -30,8 +30,7 @@ a {
 
 nav {
     display: inline;
-    padding-inline-start: 20pt;
-    
+    padding-inline-start: 20pt;  
 }
 
 #t {
@@ -43,6 +42,7 @@ nav {
 #fp-t {
     margin-bottom: 0pt;
     font-size: 40pt;
+    font-weight: bolder;
 }
 
 #fp-d {
@@ -79,15 +79,25 @@ nav {
     src: url(../fonts/OpenSans-Light.ttf);
 }
 
-@media screen and (max-width: 420px) {
-    nav, .fp-btns-r {
+@media screen and (max-width: 661px) {
+    #fp-header {
         display: none;
     }
 
     #t {
         text-align: center;
         box-align: center;
-        padding-top: 56%;
+        padding-top: 55%;
     }
 
+    #fp-body {
+        padding-top: 0;
+    }
 }
+
+@media screen and (min-width: 659px) {
+    #fp-header-mobile {
+        display: none; 
+    }
+}
+
