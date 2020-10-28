@@ -39,7 +39,7 @@ nav {
     padding-top: 17%;
 }
 
-#fp-t {
+.fp-t {
     margin-bottom: 0pt;
     font-size: 40pt;
     font-weight: bolder;
@@ -61,6 +61,7 @@ nav {
 
 .fp-btns-p:hover {
     color: grey;
+    text-decoration: none;
 }
 
 .fp-btns-p {
@@ -72,6 +73,18 @@ nav {
     border-color: transparent;
     float: right;
     margin-right: 30pt;
+}
+
+.card {
+    padding-left: 10;
+}
+
+#proj-header {
+    padding: 10% 10% 10% 10%;
+}
+
+#proj-footer {
+    padding: 5% 5% 5% 5%;
 }
 
 @font-face {
