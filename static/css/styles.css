@@ -36,7 +36,8 @@ nav {
 #t {
     text-align: center;
     box-align: center;
-    padding-top: 17%;
+    padding-top: 20%;
+    padding-bottom: 20%;
 }
 
 .fp-t {
@@ -94,11 +95,11 @@ nav {
 }
 
 .fade-in {
-    animation: fadeIn ease 20s;
-    -webkit-animation: fadeIn ease 20s;
-    -moz-animation: fadeIn ease 20s;
-    -o-animation: fadeIn ease 20s;
-    -ms-animation: fadeIn ease 20s;
+    animation: fadeIn ease 6s;
+    -webkit-animation: fadeIn ease 6s;
+    -moz-animation: fadeIn ease 6s;
+    -o-animation: fadeIn ease 6s;
+    -ms-animation: fadeIn ease 6s;
     }
 @keyframes fadeIn {
     0% {opacity:0;}
@@ -133,7 +134,8 @@ nav {
     #t {
         text-align: center;
         box-align: center;
-        padding-top: 55%;
+        padding-top: 45%;
+        padding-bottom: 45%;
     }
 
     #fp-body {
