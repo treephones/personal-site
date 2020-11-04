@@ -25,11 +25,6 @@
             .form-label {
                 color: white;
             }
-
-            #form-valid {
-                color: red;
-                font-weight: bolder;
-            }
         </style>
     </head>
 
@@ -46,37 +41,14 @@
                     <a href="projects" class="nav-item nav-link">Projects</a>
                 </div>
                 <div class="navbar-nav ml-auto">
-                    <a class="nav-item nav-link active">Contact Me</a>
+                    <a href="contact" class="nav-item nav-link">Contact Me</a>
                 </div>
             </div>
         </nav>
 
         <div id="proj-header">
-            <p class="fp-t">Contact Me</p>
-            <p class="fp-d">Hit me up.</p>
-        </div>
-
-        <div id="f-container">
-            <form action="#" method="POST">
-                <div class="form-group">
-                  <label class="form-label" for="nameIn">Name</label>
-                  <input type="text" name="name" class="form-control" id="nameIn" placeholder="Name">
-                </div>
-                <div class="form-group">
-                  <label class="form-label" for="emailIn">Email</label>
-                  <input type="text" name="email" class="form-control" id="emailIn" placeholder="Email">
-                </div>
-                <div class="form-group">
-                    <label class="form-label" for="messageIn">Message</label>
-                    <textarea class="form-control" name="msg" id="messageIn" rows="3" placeholder="Message"></textarea>
-                  </div>
-                  <button type="submit" class="btn btn-primary mb-2">Submit</button>
-              </form>   
-              <p id="form-valid">{{invalid_message}}</p> 
-        </div>
-        
-        <div id="proj-footer">
-            <p class="fp-t"> </p>
+            <p class="fp-t">Sent!</p>
+            <p class="fp-d">Your message has been sent. I'll get back to you shortly!</p>
         </div>
 
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
