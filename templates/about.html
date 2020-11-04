@@ -23,10 +23,6 @@
             .card-text {
                 color: black;
             }
-            #carou-container {
-                padding: 7% 7% 7% 7%;
-                padding-top: 0;
-            }
             #about-d {
                 padding-bottom: 0;
                 padding-top: 2%;
@@ -37,18 +33,18 @@
 
     <body>
         <nav class="navbar navbar-expand-md navbar-light bg-light">
-            <a href="../index.html" class="navbar-brand">Moez Bajwa</a>
+            <a href="/" class="navbar-brand">Moez Bajwa</a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
         
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav">
-                    <a href="#" class="nav-item nav-link">About Me</a>
-                    <a href="#" class="nav-item nav-link active">Projects</a>
+                    <a href="about" class="nav-item nav-link active">About Me</a>
+                    <a href="projects" class="nav-item nav-link">Projects</a>
                 </div>
                 <div class="navbar-nav ml-auto">
-                    <a href="#" class="nav-item nav-link">Contact Me</a>
+                    <a href="contact" class="nav-item nav-link">Contact Me</a>
                 </div>
             </div>
         </nav>
@@ -56,13 +52,13 @@
         <div id="proj-header">
             <p class="fp-t">About Me</p>
             <p id="about-d" class="fp-d">Hey there! I'm Moez Bajwa. 
-                I'm a first year computer science student and curious dude exploring the world of code through interesting projects. 
-                When I'm not working on a project, I'll be capturing scenic landscapes from the air with a DJI Mavic Air 2. Some of 
-                which can be seen below.
+                I'm a first year computer science student and curious dude working on interesting projects to learn more about coding. 
+                When I'm not working on a project, I'll be spending time with family and friends, playing hockey, or capturing scenic 
+                Ontario landscapes from the air with a DJI Mavic Air 2. Some of which can be seen below.
             </p>
         </div>
 
-        <div id="carou-container">
+        <div class="item-container">
             <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                   <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>

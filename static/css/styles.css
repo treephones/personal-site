@@ -89,6 +89,16 @@ nav {
     padding: 5% 5% 5% 5%;
 }
 
+.item-container {
+    padding: 7% 7% 7% 7%;
+    padding-top: 0;
+}
+
+.f-container {
+    padding: 7% 7% 7% 7%;
+    padding-top: 0;
+}
+
 @font-face {
     font-family: 'titleFont';
     src: url(../fonts/OpenSans-Light.ttf);

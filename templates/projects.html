@@ -28,58 +28,60 @@
 
     <body>
         <nav class="navbar navbar-expand-md navbar-light bg-light">
-            <a href="../index.html" class="navbar-brand">Moez Bajwa</a>
+            <a href="/" class="navbar-brand">Moez Bajwa</a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
         
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav">
-                    <a href="#" class="nav-item nav-link">About Me</a>
-                    <a href="#" class="nav-item nav-link active">Projects</a>
+                    <a href="about" class="nav-item nav-link">About Me</a>
+                    <a href="projects" class="nav-item nav-link active">Projects</a>
                 </div>
                 <div class="navbar-nav ml-auto">
-                    <a href="#" class="nav-item nav-link">Contact Me</a>
+                    <a href="contact" class="nav-item nav-link">Contact Me</a>
                 </div>
             </div>
         </nav>
 
         <div id="proj-header">
             <p class="fp-t">Projects</p>
+            <p class="fp-d">Some personal projects I've done.</p>
         </div>
 
         <div class="card-deck mt-4">
             <div class="card" style="width: 18rem;">
                 <img class="card-img-top" src="../static/images/fp-back3.JPG" alt="Card image cap">
                 <div class="card-body">
-                  <h5 class="card-title">Project Name</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <h5 class="card-title">Anagrams Bot</h5>
+                  <p class="card-text">A bot which completely automates the iMessage game, Anagrams, by taking a screenshot of the phone 
+                    screen, parsing the text from the screenshot, generating all possible english words of different lengths from the 
+                    letter set, and sending coordinates to an arduino, which sends instructions to the iPhone to automatically tap
+                    the letters.
+                  </p>
                 </div>
                 <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Cras justo odio</li>
-                  <li class="list-group-item">Dapibus ac facilisis in</li>
-                  <li class="list-group-item">Vestibulum at eros</li>
+                  <li class="list-group-item">Python (OpenCV, Numpy, Tesseract, Serial)</li>
+                  <li class="list-group-item">C++ (Arduino)</li>
                 </ul>
                 <div class="card-body">
-                  <a href="#" class="card-link">Card link</a>
-                  <a href="#" class="card-link">Another link</a>
+                  <a href="https://github.com/treephones/anagrams" class="card-link">GitHub Repo</a>
                 </div>
               </div>
     
               <div class="card" style="width: 18rem;">
                 <img class="card-img-top" src="..." alt="Card image cap">
                 <div class="card-body">
-                  <h5 class="card-title">Project Name</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <h5 class="card-title">Picture Painter</h5>
+                  <p class="card-text">A minecraft server plugin which takes any JPEG or PNG image and scales it before converting all pixels to minecraft 
+                    blocks and creating it in the minecraft server.
+                  </p>
                 </div>
                 <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Cras justo odio</li>
-                  <li class="list-group-item">Dapibus ac facilisis in</li>
-                  <li class="list-group-item">Vestibulum at eros</li>
+                  <li class="list-group-item">Java (Bukkit, IO)</li>
                 </ul>
                 <div class="card-body">
-                  <a href="#" class="card-link">Card link</a>
-                  <a href="#" class="card-link">Another link</a>
+                  <a href="https://github.com/treephones/picture-painter-plugin" class="card-link">GitHub Repo</a>
                 </div>
               </div>
 
