@@ -2,19 +2,21 @@ from flask import Flask, render_template, request
 import smtplib
 
 app = Flask(__name__)
+form_out = [["Sent!", "Your message has been sent. I'll get back to you shortly!"], ["Uh Oh!", "Something went wrong, L."]]
 
 def submit_form(name, email, message):
     form_email = "moezbpersonalsite@gmail.com"
-    pw = "personalsite"
+    sfjd = "personalsite"
     me = "moezbajwa@hotmail.com"
     header = "New Contact Form Submission From MOEZB.COM!"
     msg = f"{header}\n\nName: {name}\nEmail: {email}\nMessage:\n{message}"
 
     s = smtplib.SMTP('smtp.gmail.com', 587)
     s.starttls()
-    s.login(form_email, pw)
+    s.login(form_email, sfjd)
     s.sendmail(form_email, me, msg)
     s.close()
+
 
 @app.route("/")
 def home():
@@ -39,8 +41,14 @@ def contact():
         elif len(message) < 5:
             return render_template("contact.html", invalid_message="Message not long enough!")
         else:
-            submit_form(name, email, message)
-            return render_template("sent.html")
+            try:
+                submit_form(name, email, message)
+                t = form_out[0][0]
+                d = form_out[0][1]
+            except:
+                t = form_out[1][0]
+                d = form_out[1][1]
+            return render_template("sent.html", t=t, d=d)
     else:
         return render_template("contact.html")
 
